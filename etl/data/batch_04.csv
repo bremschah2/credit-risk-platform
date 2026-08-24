@@ -1,0 +1,301 @@
+loan_amnt,term,int_rate,grade,sub_grade,emp_length,home_ownership,annual_inc,issue_d,loan_status,purpose,dti
+13000, 60 months,16.78,C,C5,10+ years,RENT,96000.0,Jul-2013,Fully Paid,debt_consolidation,17.03
+25000, 36 months,6.08,A,A2,10+ years,RENT,55000.0,Jan-2018,Current,other,15.93
+3250, 36 months,11.22,B,B5,10+ years,RENT,31000.0,Dec-2015,Fully Paid,debt_consolidation,25.44
+16000, 60 months,12.74,C,C1,2 years,MORTGAGE,156000.0,Mar-2017,Fully Paid,other,5.53
+14000, 60 months,12.74,C,C1,5 years,RENT,58000.0,May-2017,Current,credit_card,30.23
+15000, 36 months,17.99,D,D2,< 1 year,RENT,71000.0,May-2017,Fully Paid,debt_consolidation,15.59
+19200, 60 months,7.97,A,A5,10+ years,MORTGAGE,127800.0,May-2017,Current,debt_consolidation,21.0
+8000, 36 months,7.21,A,A3,5 years,RENT,28000.0,Oct-2018,Current,credit_card,1.07
+10000, 36 months,10.99,B,B4,3 years,MORTGAGE,56000.0,Aug-2016,Charged Off,debt_consolidation,34.27
+10400, 36 months,6.03,A,A1,10+ years,RENT,50000.0,Feb-2015,Fully Paid,debt_consolidation,18.86
+10000, 36 months,21.85,D,D5,< 1 year,RENT,52000.0,Apr-2018,Current,debt_consolidation,5.38
+8000, 36 months,16.99,D,D3,10+ years,MORTGAGE,40000.0,Jul-2015,Fully Paid,debt_consolidation,36.57
+22000, 36 months,6.24,A,A2,3 years,OWN,96000.0,Jul-2015,Fully Paid,credit_card,12.9
+9600, 36 months,15.59,C,C5,1 year,OWN,65000.0,Oct-2016,Fully Paid,debt_consolidation,10.45
+17500, 36 months,12.74,C,C1,5 years,RENT,54600.0,Nov-2016,Charged Off,debt_consolidation,21.36
+5000, 36 months,8.9,A,A5,3 years,RENT,24000.0,Jul-2012,Fully Paid,debt_consolidation,30.65
+23500, 36 months,21.18,E,E3,1 year,RENT,56000.0,Feb-2016,Fully Paid,debt_consolidation,13.44
+8000, 36 months,12.62,C,C1,< 1 year,MORTGAGE,60000.0,Jul-2017,Current,credit_card,14.06
+7000, 36 months,6.99,A,A3,,MORTGAGE,65000.0,Dec-2015,Fully Paid,credit_card,27.0
+15000, 36 months,18.06,D,D2,10+ years,MORTGAGE,65000.0,Jun-2017,Fully Paid,debt_consolidation,22.91
+9525, 36 months,11.49,B,B5,10+ years,OWN,27242.0,May-2017,Charged Off,debt_consolidation,31.81
+12000, 36 months,11.44,B,B4,10+ years,MORTGAGE,150000.0,Apr-2017,Fully Paid,home_improvement,21.33
+8000, 36 months,13.55,D,D4,10+ years,RENT,31800.0,Mar-2008,Does not meet the credit policy. Status:Fully Paid,home_improvement,21.28
+35000, 36 months,19.99,D,D4,3 years,OWN,170000.0,Feb-2017,Current,debt_consolidation,22.19
+10000, 36 months,20.0,D,D4,3 years,MORTGAGE,55000.0,Aug-2017,Fully Paid,other,1.18
+32000, 60 months,9.93,B,B2,5 years,MORTGAGE,100000.0,Jun-2017,Current,debt_consolidation,18.42
+10000, 60 months,16.14,C,C4,4 years,RENT,20000.0,Dec-2018,Current,credit_card,28.93
+12000, 36 months,6.97,A,A3,1 year,MORTGAGE,75000.0,Apr-2016,Charged Off,debt_consolidation,12.32
+28775, 60 months,16.14,C,C4,7 years,OWN,95000.0,Aug-2018,Current,debt_consolidation,49.68
+8000, 36 months,6.97,A,A3,10+ years,RENT,50000.0,May-2016,Fully Paid,credit_card,12.28
+8000, 36 months,5.32,A,A1,2 years,RENT,37450.0,Jul-2015,Fully Paid,credit_card,21.41
+12000, 36 months,15.31,C,C2,10+ years,MORTGAGE,50000.0,Apr-2013,Fully Paid,debt_consolidation,11.3
+26600, 60 months,24.99,F,F4,10+ years,RENT,70000.0,Oct-2015,Charged Off,debt_consolidation,33.62
+7000, 36 months,6.03,A,A1,3 years,RENT,48000.0,Jul-2014,Fully Paid,credit_card,12.1
+30000, 36 months,16.55,D,D2,10+ years,OWN,140000.0,Sep-2015,Fully Paid,debt_consolidation,19.72
+10000, 36 months,9.17,B,B2,6 years,MORTGAGE,50000.0,Apr-2015,Fully Paid,debt_consolidation,36.05
+30000, 36 months,30.74,F,F5,< 1 year,OWN,80000.0,Oct-2016,Charged Off,debt_consolidation,24.68
+32000, 36 months,16.91,C,C5,2 years,MORTGAGE,80000.0,Oct-2018,Current,debt_consolidation,7.84
+40000, 60 months,14.07,C,C3,7 years,MORTGAGE,110000.0,Apr-2018,Current,debt_consolidation,17.9
+7000, 36 months,16.02,C,C5,9 years,MORTGAGE,41000.0,Jul-2017,Charged Off,credit_card,22.31
+14000, 36 months,17.09,D,D1,3 years,RENT,32000.0,Dec-2017,Current,credit_card,25.69
+12250, 36 months,13.59,C,C2,2 years,RENT,35000.0,Oct-2017,Current,credit_card,32.96
+5000, 36 months,7.56,A,A3,2 years,OWN,88000.0,Dec-2018,Current,debt_consolidation,7.7
+20000, 36 months,8.46,A,A5,< 1 year,MORTGAGE,100000.0,Oct-2018,Current,other,26.25
+22000, 36 months,7.97,A,A5,7 years,MORTGAGE,100000.0,Dec-2017,Current,home_improvement,8.88
+30000, 60 months,30.79,G,G1,,MORTGAGE,60000.0,Dec-2017,Current,debt_consolidation,13.48
+15000, 60 months,13.11,B,B4,4 years,MORTGAGE,55500.0,Apr-2013,Fully Paid,debt_consolidation,9.36
+10000, 36 months,6.39,A,A2,10+ years,MORTGAGE,60000.0,Mar-2015,Fully Paid,credit_card,9.24
+15000, 60 months,10.42,B,B3,3 years,RENT,67200.0,Dec-2017,Current,debt_consolidation,18.05
+12000, 36 months,5.79,A,A2,5 years,RENT,30000.0,Dec-2010,Fully Paid,other,23.52
+35000, 36 months,11.44,B,B4,,OWN,200000.0,Dec-2016,Fully Paid,credit_card,18.09
+16000, 36 months,10.91,B,B4,7 years,RENT,50000.0,Feb-2018,Current,credit_card,29.21
+22000, 60 months,13.59,C,C2,10+ years,RENT,60000.0,Jan-2018,Current,debt_consolidation,20.88
+24000, 36 months,11.99,B,B3,3 years,MORTGAGE,82000.0,Nov-2013,Fully Paid,credit_card,9.35
+16000, 60 months,11.55,B,B4,4 years,MORTGAGE,225000.0,Oct-2018,Current,debt_consolidation,9.82
+10000, 36 months,7.99,A,A4,10+ years,RENT,90000.0,Aug-2016,Fully Paid,debt_consolidation,10.27
+10000, 36 months,15.8,C,C3,10+ years,RENT,40000.0,Jan-2013,Fully Paid,credit_card,29.46
+8800, 60 months,10.38,B,B1,2 years,RENT,45000.0,Jun-2010,Fully Paid,credit_card,21.59
+6400, 36 months,6.99,A,A2,10+ years,MORTGAGE,50000.0,May-2017,Current,debt_consolidation,19.47
+10000, 36 months,7.24,A,A3,10+ years,MORTGAGE,50000.0,Oct-2016,Current,debt_consolidation,24.13
+12000, 60 months,14.99,C,C5,3 years,RENT,40000.0,Jan-2015,Fully Paid,debt_consolidation,17.77
+2200, 36 months,14.65,C,C5,,RENT,15636.0,Apr-2015,Fully Paid,medical,29.16
+14000, 60 months,12.79,C,C1,1 year,RENT,60000.0,Jul-2016,Charged Off,other,3.16
+4200, 36 months,9.44,B,B1,4 years,RENT,45000.0,Sep-2017,Fully Paid,debt_consolidation,9.97
+14000, 36 months,7.91,A,A5,10+ years,MORTGAGE,85000.0,Jan-2016,Fully Paid,debt_consolidation,0.78
+12350, 36 months,17.86,D,D5,2 years,RENT,60000.0,Jun-2015,Charged Off,debt_consolidation,20.78
+7500, 36 months,12.69,C,C2,2 years,RENT,50000.0,Aug-2015,Fully Paid,debt_consolidation,17.95
+30000, 36 months,6.72,A,A3,2 years,RENT,100000.0,Dec-2017,Current,debt_consolidation,11.23
+16000, 36 months,13.49,C,C2,4 years,RENT,40000.0,Aug-2016,Charged Off,debt_consolidation,5.91
+9000, 36 months,7.26,A,A4,,RENT,65000.0,May-2015,Fully Paid,credit_card,14.33
+6000, 36 months,12.62,C,C1,< 1 year,RENT,22080.0,Nov-2017,Charged Off,debt_consolidation,9.04
+25000, 36 months,17.99,D,D2,2 years,RENT,90000.0,Nov-2016,Charged Off,credit_card,12.99
+12000, 36 months,14.33,C,C2,2 years,MORTGAGE,49000.0,Aug-2013,Charged Off,medical,3.84
+14000, 36 months,7.39,A,A4,3 years,MORTGAGE,120000.0,Feb-2016,Fully Paid,debt_consolidation,5.6
+35000, 60 months,10.42,B,B3,6 years,MORTGAGE,130000.0,Sep-2017,Current,credit_card,9.06
+35000, 60 months,14.33,C,C1,10+ years,MORTGAGE,105000.0,Sep-2012,Charged Off,debt_consolidation,12.46
+12000, 60 months,13.66,C,C3,2 years,OWN,55000.0,Jan-2015,Fully Paid,debt_consolidation,23.72
+19750, 36 months,12.12,B,B3,2 years,RENT,45000.0,Jan-2013,Fully Paid,credit_card,25.48
+9100, 36 months,14.65,C,C5,10+ years,OWN,80000.0,Jul-2015,Fully Paid,debt_consolidation,26.34
+35000, 60 months,12.73,B,B5,10+ years,RENT,50000.0,Sep-2018,Current,debt_consolidation,25.73
+9000, 36 months,13.11,B,B4,2 years,RENT,73000.0,Jul-2012,Fully Paid,credit_card,23.39
+40000, 60 months,16.02,C,C5,8 years,MORTGAGE,115000.0,Aug-2017,Current,credit_card,26.14
+8000, 36 months,14.03,C,C2,10+ years,MORTGAGE,72000.0,May-2018,Current,debt_consolidation,27.45
+21000, 60 months,13.99,C,C4,9 years,RENT,83000.0,Feb-2015,Current,debt_consolidation,13.94
+9000, 36 months,6.97,A,A3,10+ years,OWN,31000.0,Jun-2016,Charged Off,debt_consolidation,22.84
+20000, 36 months,13.56,C,C1,< 1 year,RENT,38000.0,Oct-2018,Current,debt_consolidation,13.83
+17000, 36 months,9.75,B,B3,,OWN,50000.0,Jun-2016,Charged Off,home_improvement,25.69
+6000, 36 months,5.31,A,A1,10+ years,RENT,95139.0,May-2018,Current,other,11.98
+30000, 60 months,23.99,F,F3,3 years,RENT,100000.0,Jul-2015,Fully Paid,debt_consolidation,18.73
+11000, 36 months,5.32,A,A1,1 year,RENT,50000.0,Feb-2016,Fully Paid,debt_consolidation,8.83
+22000, 60 months,6.0,C,C3,10+ years,MORTGAGE,72000.0,Dec-2012,Fully Paid,debt_consolidation,14.19
+35000, 60 months,20.99,E,E5,10+ years,OWN,130000.0,Nov-2015,Fully Paid,other,24.16
+25000, 36 months,6.03,A,A1,10+ years,MORTGAGE,93800.0,Feb-2015,Fully Paid,home_improvement,18.57
+15000, 36 months,7.84,A,A4,10+ years,RENT,89000.0,Sep-2018,Current,debt_consolidation,13.08
+4500, 36 months,15.49,C,C4,4 years,RENT,81000.0,May-2018,Current,debt_consolidation,14.46
+4800, 36 months,16.91,C,C5,2 years,RENT,200000.0,Sep-2018,Current,small_business,11.03
+5350, 36 months,7.34,A,A4,3 years,MORTGAGE,30000.0,May-2018,Current,car,33.28
+4000, 36 months,10.99,B,B4,7 years,MORTGAGE,95000.0,Jul-2015,Fully Paid,credit_card,16.84
+35000, 60 months,25.88,F,F4,1 year,MORTGAGE,112284.0,Mar-2016,Charged Off,home_improvement,19.62
+8825, 36 months,12.59,C,C2,5 years,RENT,26000.0,Nov-2015,Charged Off,other,18.47
+28000, 36 months,9.44,B,B1,5 years,RENT,300000.0,Jun-2017,Fully Paid,debt_consolidation,17.77
+6025, 36 months,10.42,B,B3,10+ years,RENT,35000.0,Aug-2017,Current,home_improvement,7.34
+14400, 36 months,6.89,A,A3,10+ years,OWN,60000.0,Aug-2015,Fully Paid,home_improvement,17.0
+15000, 36 months,13.11,B,B4,4 years,MORTGAGE,53000.0,May-2013,Fully Paid,credit_card,19.81
+40000, 36 months,9.93,B,B2,,MORTGAGE,0.0,Oct-2017,Fully Paid,credit_card,
+11000, 60 months,18.45,D,D2,4 years,RENT,54000.0,Jun-2018,Current,debt_consolidation,11.02
+5000, 36 months,5.32,A,A1,8 years,OWN,50000.0,Sep-2017,Current,other,13.56
+18000, 60 months,10.99,B,B4,10+ years,RENT,55000.0,Jul-2016,Charged Off,credit_card,27.21
+24000, 60 months,16.02,C,C5,4 years,MORTGAGE,125000.0,Jul-2017,Current,home_improvement,12.45
+8000, 36 months,13.56,C,C1,7 years,MORTGAGE,49000.0,Nov-2018,Current,moving,27.55
+25000, 36 months,7.24,A,A3,3 years,MORTGAGE,75000.0,Oct-2016,Current,debt_consolidation,8.61
+20000, 36 months,12.29,C,C1,10+ years,MORTGAGE,82000.0,Oct-2015,Fully Paid,credit_card,34.42
+15000, 36 months,10.42,B,B3,10+ years,OWN,132000.0,Dec-2017,Current,debt_consolidation,8.14
+20000, 36 months,11.67,B,B4,10+ years,RENT,111000.0,Jun-2014,Fully Paid,debt_consolidation,18.08
+12000, 36 months,13.99,C,C3,1 year,RENT,41000.0,Dec-2016,Current,debt_consolidation,15.16
+16000, 60 months,10.47,B,B2,4 years,RENT,54000.0,Aug-2018,Current,credit_card,6.16
+10000, 36 months,7.39,A,A4,4 years,MORTGAGE,80000.0,May-2016,Fully Paid,debt_consolidation,10.91
+16000, 36 months,13.06,C,C1,7 years,RENT,36000.0,Jun-2018,Current,debt_consolidation,18.37
+10000, 60 months,15.31,C,C4,10+ years,MORTGAGE,47000.0,Feb-2014,Charged Off,debt_consolidation,8.45
+4000, 36 months,11.49,B,B5,4 years,MORTGAGE,104000.0,Jan-2017,Fully Paid,credit_card,28.91
+20750, 36 months,8.9,A,A5,5 years,RENT,90000.0,Nov-2013,Fully Paid,debt_consolidation,5.23
+10000, 36 months,12.79,C,C1,10+ years,RENT,101000.0,Aug-2016,Current,debt_consolidation,27.8
+2800, 36 months,15.02,C,C3,6 years,RENT,55000.0,Aug-2018,Current,debt_consolidation,22.28
+5000, 36 months,11.49,B,B5,10+ years,MORTGAGE,60000.0,Mar-2017,Current,debt_consolidation,20.24
+6000, 36 months,6.68,A,A3,10+ years,RENT,68000.0,Apr-2015,Fully Paid,credit_card,17.74
+6000, 36 months,13.59,C,C2,4 years,RENT,65000.0,Aug-2017,Current,credit_card,16.2
+6000, 36 months,14.08,C,C3,4 years,RENT,74000.0,Jun-2017,Current,small_business,8.77
+13600, 36 months,14.47,C,C2,7 years,MORTGAGE,63000.0,Dec-2013,Charged Off,debt_consolidation,32.0
+14000, 60 months,23.87,E,E2,7 years,RENT,54000.0,Apr-2018,Charged Off,debt_consolidation,13.53
+20000, 36 months,10.9,B,B4,3 years,RENT,90000.0,Mar-2018,Current,vacation,10.52
+11850, 60 months,18.25,E,E1,1 year,RENT,35000.0,Mar-2015,Charged Off,debt_consolidation,21.04
+15000, 60 months,23.99,E,E2,4 years,RENT,90000.0,Apr-2017,Fully Paid,debt_consolidation,18.77
+15000, 36 months,12.99,C,C2,3 years,OWN,42000.0,Feb-2016,Fully Paid,debt_consolidation,32.66
+8000, 36 months,12.74,C,C1,3 years,OWN,35000.0,Nov-2016,Fully Paid,debt_consolidation,21.98
+12000, 36 months,13.56,C,C1,2 years,RENT,60000.0,Sep-2018,Current,debt_consolidation,12.14
+12000, 36 months,14.49,C,C4,1 year,MORTGAGE,60000.0,Oct-2014,Fully Paid,debt_consolidation,21.64
+28000, 36 months,10.47,B,B2,9 years,RENT,345000.0,Sep-2018,Current,debt_consolidation,15.38
+7200, 36 months,12.36,D,D1,6 years,RENT,17280.0,Jan-2008,Fully Paid,other,4.58
+5000, 36 months,12.79,C,C1,5 years,MORTGAGE,75000.0,Sep-2016,Fully Paid,debt_consolidation,16.51
+2000, 36 months,14.65,C,C5,2 years,OWN,35000.0,Sep-2015,Fully Paid,other,14.37
+8000, 36 months,12.49,B,B5,10+ years,MORTGAGE,33300.0,Jun-2014,Fully Paid,home_improvement,2.41
+16000, 60 months,13.99,C,C3,10+ years,MORTGAGE,83000.0,Jan-2017,Current,debt_consolidation,29.55
+16000, 36 months,7.89,A,A5,10+ years,MORTGAGE,56800.0,Mar-2015,Fully Paid,debt_consolidation,12.04
+5000, 36 months,10.08,B,B1,,MORTGAGE,19704.0,Aug-2018,Current,credit_card,22.11
+15000, 60 months,15.02,C,C3,10+ years,MORTGAGE,45000.0,Oct-2018,Current,debt_consolidation,16.29
+8000, 36 months,9.93,B,B2,5 years,MORTGAGE,89000.0,Dec-2017,Fully Paid,debt_consolidation,26.2
+15000, 36 months,11.99,B,B5,10+ years,MORTGAGE,62500.0,May-2017,Fully Paid,debt_consolidation,19.22
+16000, 60 months,13.67,C,C4,1 year,MORTGAGE,200000.0,Nov-2015,Current,debt_consolidation,5.51
+32000, 60 months,12.73,B,B5,10+ years,MORTGAGE,158000.0,Sep-2018,Current,debt_consolidation,11.17
+21000, 36 months,13.99,C,C4,2 years,RENT,75000.0,Jan-2016,Fully Paid,credit_card,10.08
+28000, 36 months,7.91,A,A5,10+ years,MORTGAGE,82000.0,Jan-2016,Fully Paid,debt_consolidation,14.97
+40000, 60 months,11.55,B,B4,10+ years,MORTGAGE,45000.0,Jul-2018,Current,credit_card,27.44
+12000, 60 months,16.24,C,C5,4 years,RENT,36000.0,Jan-2014,Charged Off,debt_consolidation,7.47
+10000, 36 months,7.88,A,A5,2 years,OWN,30000.0,Jan-2010,Fully Paid,home_improvement,4.84
+4300, 36 months,16.29,D,D1,10+ years,MORTGAGE,58000.0,Apr-2016,Fully Paid,home_improvement,14.61
+11375, 60 months,14.99,C,C5,6 years,RENT,35000.0,Jan-2015,Current,debt_consolidation,38.13
+14400, 36 months,16.55,D,D2,10+ years,MORTGAGE,50000.0,Jul-2015,Fully Paid,credit_card,15.39
+20000, 60 months,14.08,C,C3,3 years,OWN,89000.0,Jul-2017,Current,home_improvement,27.13
+16800, 60 months,18.55,D,D4,5 years,RENT,48000.0,Jun-2012,Fully Paid,debt_consolidation,23.83
+5000, 36 months,9.16,B,B2,10+ years,MORTGAGE,80000.0,Mar-2016,Charged Off,other,17.93
+35000, 36 months,16.99,D,D1,< 1 year,MORTGAGE,170000.0,Sep-2016,Fully Paid,other,15.76
+10000, 36 months,7.96,A,A5,5 years,MORTGAGE,108000.0,Apr-2018,Fully Paid,other,12.28
+10000, 36 months,10.0,B,B2,1 year,RENT,65000.0,Jan-2011,Fully Paid,debt_consolidation,11.89
+20000, 36 months,14.08,C,C3,10+ years,MORTGAGE,102000.0,Jun-2017,Fully Paid,debt_consolidation,15.56
+19200, 36 months,6.99,A,A2,8 years,MORTGAGE,88000.0,Mar-2017,Fully Paid,debt_consolidation,16.51
+25000, 36 months,7.21,A,A3,9 years,MORTGAGE,67000.0,Oct-2017,Current,debt_consolidation,4.78
+7800, 36 months,7.21,A,A3,< 1 year,MORTGAGE,40000.0,Oct-2018,Current,debt_consolidation,4.89
+17000, 36 months,11.39,B,B3,6 years,MORTGAGE,61000.0,May-2017,Current,debt_consolidation,16.74
+10000, 60 months,16.59,D,D1,10+ years,RENT,175000.0,Mar-2014,Fully Paid,debt_consolidation,7.83
+9575, 36 months,10.75,B,B4,10+ years,RENT,93000.0,Apr-2016,Current,debt_consolidation,8.55
+14000, 60 months,16.78,C,C5,3 years,RENT,79000.0,Aug-2013,Fully Paid,debt_consolidation,24.91
+2500, 36 months,14.99,C,C4,4 years,RENT,118560.0,Dec-2016,Current,vacation,5.18
+12000, 36 months,8.59,A,A5,10+ years,MORTGAGE,185000.0,Aug-2016,Current,debt_consolidation,8.12
+14150, 60 months,19.92,D,D3,10+ years,MORTGAGE,42000.0,Nov-2018,Current,other,25.57
+20000, 36 months,12.29,C,C1,4 years,OWN,115000.0,Aug-2015,Fully Paid,debt_consolidation,16.53
+1200, 36 months,7.21,A,A3,< 1 year,OWN,21000.0,Sep-2017,Current,home_improvement,18.51
+24000, 60 months,20.2,E,E3,< 1 year,RENT,80000.0,Jul-2014,Current,moving,25.72
+23000, 60 months,12.61,C,C1,5 years,RENT,89000.0,Apr-2018,Current,credit_card,12.42
+15000, 36 months,14.49,C,C4,6 years,OWN,50000.0,Sep-2014,Fully Paid,debt_consolidation,20.39
+8000, 36 months,8.9,A,A5,8 years,MORTGAGE,110000.0,Dec-2013,Charged Off,debt_consolidation,8.92
+35000, 36 months,13.56,C,C1,< 1 year,MORTGAGE,75000.0,Aug-2018,Current,debt_consolidation,11.22
+15000, 36 months,8.81,A,A5,10+ years,MORTGAGE,62000.0,Dec-2018,Current,debt_consolidation,21.62
+20000, 36 months,10.07,B,B2,< 1 year,OWN,50000.0,Jul-2018,Current,debt_consolidation,15.48
+4250, 36 months,18.99,D,D3,4 years,RENT,21000.0,Sep-2016,Current,debt_consolidation,15.14
+1500, 36 months,9.93,B,B2,3 years,MORTGAGE,43330.0,Jun-2017,Charged Off,medical,23.33
+5000, 36 months,9.49,B,B2,6 years,MORTGAGE,96000.0,Aug-2016,Fully Paid,home_improvement,23.19
+20000, 36 months,7.49,A,A4,9 years,MORTGAGE,83000.0,Apr-2017,Current,debt_consolidation,8.07
+35000, 60 months,12.74,C,C1,7 years,MORTGAGE,140550.0,Feb-2017,Current,debt_consolidation,22.66
+6400, 36 months,11.67,B,B4,2 years,RENT,33000.0,Jun-2014,Fully Paid,moving,17.62
+4200, 36 months,12.99,C,C2,5 years,RENT,18000.0,Apr-2016,Fully Paid,credit_card,33.47
+8500, 36 months,14.99,C,C4,2 years,RENT,55000.0,Nov-2016,Current,debt_consolidation,3.47
+25000, 60 months,12.35,B,B4,10+ years,MORTGAGE,65000.0,Jul-2013,Fully Paid,credit_card,18.84
+15000, 36 months,9.17,B,B2,2 years,RENT,187000.0,Feb-2016,Fully Paid,credit_card,13.18
+15000, 60 months,14.08,C,C3,2 years,RENT,65000.0,Sep-2017,Current,debt_consolidation,12.15
+3500, 36 months,15.61,C,C3,6 years,MORTGAGE,21000.0,Nov-2013,Charged Off,credit_card,15.91
+1200, 36 months,13.11,C,C2,10+ years,OWN,54000.0,Mar-2010,Fully Paid,debt_consolidation,5.47
+10000, 60 months,30.49,F,F4,7 years,RENT,39000.0,Dec-2016,Charged Off,debt_consolidation,31.88
+21975, 60 months,16.14,C,C4,10+ years,RENT,41000.0,Nov-2018,Current,debt_consolidation,32.85
+8000, 36 months,16.99,D,D1,,RENT,38000.0,Apr-2017,Current,debt_consolidation,20.85
+28000, 60 months,12.62,C,C1,10+ years,MORTGAGE,75000.0,May-2017,Current,debt_consolidation,16.96
+14000, 36 months,8.18,B,B1,3 years,OWN,70000.0,Jul-2015,Fully Paid,debt_consolidation,15.07
+10000, 36 months,10.91,B,B4,9 years,OWN,51625.0,Aug-2017,Current,debt_consolidation,18.36
+18875, 36 months,10.42,B,B3,10+ years,RENT,80000.0,Oct-2017,Fully Paid,debt_consolidation,8.24
+15000, 36 months,10.99,B,B3,9 years,RENT,61000.0,Jun-2014,Fully Paid,debt_consolidation,14.18
+16000, 36 months,13.49,C,C2,10+ years,MORTGAGE,50000.0,Jan-2017,Fully Paid,debt_consolidation,51.84
+20000, 36 months,12.62,C,C1,2 years,RENT,60000.0,Jan-2018,Charged Off,debt_consolidation,25.7
+16000, 36 months,5.32,A,A1,10+ years,OWN,93000.0,May-2016,Fully Paid,credit_card,13.28
+25000, 36 months,9.99,B,B3,7 years,RENT,50000.0,Aug-2015,Fully Paid,debt_consolidation,29.24
+13000, 36 months,7.97,A,A5,3 years,RENT,129996.0,Oct-2017,Current,car,12.25
+7000, 36 months,7.99,A,A5,< 1 year,RENT,65000.0,May-2017,Fully Paid,debt_consolidation,9.08
+20000, 36 months,7.96,A,A5,5 years,RENT,450000.0,Mar-2018,Current,credit_card,4.18
+32000, 60 months,16.02,C,C5,< 1 year,RENT,67000.0,Oct-2017,Charged Off,debt_consolidation,44.17
+27300, 60 months,22.99,F,F2,10+ years,MORTGAGE,65000.0,Aug-2015,Current,credit_card,20.75
+7000, 36 months,9.16,B,B2,3 years,RENT,62000.0,Feb-2016,Fully Paid,debt_consolidation,19.38
+12000, 60 months,16.55,D,D2,6 years,OWN,45000.0,Mar-2015,Current,debt_consolidation,25.17
+28000, 36 months,14.85,C,C5,10+ years,MORTGAGE,83000.0,Jan-2016,Charged Off,debt_consolidation,16.54
+23500, 60 months,10.33,B,B1,4 years,MORTGAGE,76000.0,Nov-2018,Current,debt_consolidation,37.0
+10000, 36 months,5.31,A,A1,10+ years,MORTGAGE,91500.0,Jun-2018,Current,credit_card,7.82
+12500, 60 months,13.66,C,C3,10+ years,RENT,84043.0,Nov-2014,Current,debt_consolidation,14.67
+15600, 60 months,20.0,D,D4,10+ years,OWN,64000.0,Jan-2018,Current,debt_consolidation,37.09
+10000, 36 months,18.49,D,D2,6 years,MORTGAGE,90000.0,Jun-2013,Fully Paid,debt_consolidation,22.48
+24100, 60 months,18.24,D,D5,,MORTGAGE,55000.0,Jul-2014,Current,debt_consolidation,33.76
+13800, 36 months,7.39,A,A4,10+ years,MORTGAGE,42000.0,Feb-2016,Fully Paid,credit_card,19.69
+10025, 60 months,18.25,D,D3,7 years,MORTGAGE,120000.0,Mar-2016,Fully Paid,home_improvement,32.16
+8750, 36 months,10.49,B,B3,3 years,RENT,25000.0,Jan-2015,Fully Paid,credit_card,19.35
+17800, 60 months,13.99,C,C3,< 1 year,RENT,130000.0,Jan-2017,Current,debt_consolidation,19.08
+20000, 60 months,12.29,C,C1,1 year,MORTGAGE,67000.0,May-2015,Current,debt_consolidation,18.29
+25000, 36 months,7.34,A,A4,4 years,RENT,45000.0,May-2018,Current,debt_consolidation,12.75
+12000, 36 months,6.89,A,A3,5 years,MORTGAGE,49000.0,Jul-2015,Fully Paid,credit_card,22.95
+3000, 36 months,10.91,B,B4,,RENT,54000.0,Oct-2017,Charged Off,debt_consolidation,25.11
+7500, 36 months,20.0,D,D4,3 years,OWN,38000.0,Feb-2018,Current,debt_consolidation,51.14
+25000, 36 months,7.89,A,A5,1 year,RENT,93000.0,Oct-2015,Fully Paid,debt_consolidation,26.08
+19100, 36 months,11.99,C,C1,10+ years,RENT,40000.0,Apr-2016,Current,credit_card,20.1
+9600, 36 months,11.99,B,B5,3 years,RENT,74500.0,Jun-2017,Current,debt_consolidation,11.94
+15000, 60 months,11.44,B,B4,3 years,MORTGAGE,48000.0,Nov-2014,Current,debt_consolidation,19.25
+13000, 36 months,12.79,C,C1,3 years,RENT,59500.0,Jul-2016,Current,credit_card,22.99
+18000, 60 months,7.89,A,A5,2 years,MORTGAGE,72000.0,Feb-2016,Current,home_improvement,1.1
+6000, 36 months,11.48,B,B5,< 1 year,MORTGAGE,50000.0,Dec-2015,Fully Paid,home_improvement,16.73
+6000, 36 months,10.99,B,B4,10+ years,MORTGAGE,50000.0,Aug-2015,Fully Paid,home_improvement,14.57
+8000, 36 months,12.62,C,C1,9 years,MORTGAGE,90254.0,Jul-2017,Fully Paid,credit_card,14.04
+30000, 60 months,24.84,E,E3,8 years,RENT,76000.0,May-2018,Current,debt_consolidation,28.53
+8000, 36 months,6.62,A,A2,2 years,RENT,40000.0,Nov-2013,Fully Paid,debt_consolidation,12.57
+9200, 36 months,7.89,A,A5,< 1 year,RENT,31200.0,Sep-2015,Fully Paid,debt_consolidation,17.0
+11075, 36 months,17.86,D,D5,7 years,OWN,56000.0,Mar-2015,Charged Off,debt_consolidation,23.68
+5000, 36 months,18.49,D,D2,10+ years,RENT,68000.0,Apr-2013,Fully Paid,debt_consolidation,10.39
+10000, 36 months,7.97,A,A5,10+ years,MORTGAGE,90000.0,Jan-2018,Fully Paid,credit_card,15.23
+35000, 36 months,15.99,C,C5,4 years,MORTGAGE,100000.0,Dec-2016,Current,debt_consolidation,21.91
+10000, 36 months,12.99,C,C2,5 years,OWN,40000.0,May-2016,Current,debt_consolidation,5.43
+12000, 60 months,18.06,D,D2,9 years,MORTGAGE,23000.0,Mar-2018,Current,debt_consolidation,26.25
+40000, 36 months,6.46,A,A1,9 years,OWN,150000.0,Dec-2018,Current,credit_card,9.21
+35000, 60 months,18.25,D,D3,10+ years,MORTGAGE,165000.0,Feb-2014,Fully Paid,debt_consolidation,11.75
+15000, 60 months,14.46,C,C4,< 1 year,RENT,95000.0,Apr-2016,Current,debt_consolidation,12.89
+21000, 60 months,15.59,C,C5,8 years,RENT,60000.0,Jul-2016,Current,debt_consolidation,30.0
+12000, 60 months,12.69,C,C2,10+ years,RENT,80000.0,Mar-2015,Charged Off,credit_card,9.75
+15000, 36 months,9.93,B,B2,< 1 year,MORTGAGE,72000.0,Jul-2017,Current,debt_consolidation,20.87
+1500, 36 months,19.22,D,D4,6 years,MORTGAGE,53724.0,Dec-2013,Fully Paid,major_purchase,27.25
+7000, 36 months,18.94,D,D2,,RENT,22000.0,Dec-2018,Current,debt_consolidation,22.53
+19775, 36 months,19.99,D,D4,10+ years,RENT,43000.0,Nov-2016,Charged Off,credit_card,25.45
+28000, 36 months,8.9,A,A5,4 years,MORTGAGE,202000.0,Dec-2013,Fully Paid,debt_consolidation,7.76
+8000, 36 months,10.99,B,B4,10+ years,RENT,74000.0,Jul-2016,Current,debt_consolidation,12.55
+8400, 36 months,6.08,A,A2,9 years,MORTGAGE,75000.0,Dec-2017,Current,other,18.54
+8400, 36 months,14.33,C,C1,4 years,MORTGAGE,75000.0,Sep-2012,Charged Off,debt_consolidation,19.1
+32000, 60 months,15.59,C,C5,2 years,MORTGAGE,145000.0,Oct-2016,Fully Paid,debt_consolidation,8.04
+13500, 60 months,9.93,B,B2,10+ years,MORTGAGE,112000.0,Feb-2018,Current,other,25.47
+7200, 36 months,9.17,B,B2,,MORTGAGE,25000.0,Mar-2015,Fully Paid,debt_consolidation,15.36
+10000, 36 months,10.99,B,B4,10+ years,RENT,39000.0,May-2015,Fully Paid,debt_consolidation,16.49
+21000, 60 months,14.46,C,C4,< 1 year,RENT,95000.0,Mar-2016,Current,debt_consolidation,28.61
+6150, 36 months,13.35,C,C2,7 years,RENT,42000.0,May-2014,Fully Paid,credit_card,16.86
+15000, 36 months,10.15,B,B2,< 1 year,RENT,40000.0,Oct-2014,Charged Off,debt_consolidation,24.96
+35000, 60 months,17.47,D,D1,1 year,OWN,120000.0,Jun-2018,Charged Off,other,1.55
+5000, 36 months,8.9,A,A5,5 years,RENT,60000.0,Dec-2013,Fully Paid,credit_card,16.36
+2500, 36 months,11.55,B,B4,,OWN,24000.0,Aug-2018,Current,debt_consolidation,23.25
+20000, 60 months,19.52,E,E2,2 years,MORTGAGE,85000.0,Oct-2014,Charged Off,debt_consolidation,24.35
+2500, 36 months,27.27,E,E5,10+ years,RENT,70000.0,Jul-2018,Fully Paid,moving,17.26
+9875, 36 months,17.86,D,D5,8 years,MORTGAGE,70000.0,Oct-2015,Fully Paid,debt_consolidation,38.78
+24000, 60 months,16.2,C,C4,2 years,MORTGAGE,75000.0,Nov-2013,Charged Off,home_improvement,9.76
+4500, 36 months,16.46,C,C5,< 1 year,RENT,14000.0,May-2018,Current,debt_consolidation,25.47
+16000, 36 months,14.49,C,C4,10+ years,MORTGAGE,65000.0,Aug-2016,Charged Off,debt_consolidation,31.09
+20000, 36 months,12.62,C,C1,1 year,MORTGAGE,30000.0,Nov-2017,Current,debt_consolidation,19.84
+15000, 36 months,11.47,B,B5,3 years,RENT,33000.0,Mar-2016,Current,debt_consolidation,39.31
+12325, 36 months,22.35,E,E2,10+ years,MORTGAGE,44000.0,Jun-2016,Fully Paid,debt_consolidation,18.52
+21000, 60 months,15.1,C,C2,< 1 year,OWN,95000.0,Oct-2013,Fully Paid,credit_card,23.76
+31300, 60 months,15.88,C,C4,10+ years,RENT,70000.0,Aug-2013,Fully Paid,debt_consolidation,17.84
+18500, 36 months,13.11,B,B4,< 1 year,MORTGAGE,46800.0,Jun-2013,Fully Paid,debt_consolidation,15.67
+16000, 60 months,13.59,C,C2,10+ years,MORTGAGE,95532.0,Nov-2017,Current,debt_consolidation,20.68
+20000, 36 months,7.35,A,A4,,MORTGAGE,75000.0,May-2017,Current,debt_consolidation,25.49
+32000, 36 months,7.69,A,A4,5 years,MORTGAGE,90000.0,Oct-2014,Fully Paid,debt_consolidation,12.64
+7000, 36 months,7.39,A,A4,1 year,MORTGAGE,47000.0,Mar-2016,Fully Paid,debt_consolidation,17.01
+28000, 60 months,8.39,A,A5,1 year,OWN,150000.0,Oct-2014,Current,credit_card,17.24
+30000, 60 months,7.97,A,A5,10+ years,MORTGAGE,113000.0,Oct-2017,Current,home_improvement,9.14
+35000, 36 months,16.91,C,C5,1 year,MORTGAGE,120000.0,Jul-2018,Current,debt_consolidation,20.49
+28000, 60 months,7.89,A,A5,2 years,OWN,150000.0,Sep-2015,Fully Paid,credit_card,7.38
+19200, 60 months,9.17,B,B2,8 years,MORTGAGE,121600.0,Oct-2015,Current,debt_consolidation,18.16
+5000, 36 months,8.18,B,B1,3 years,MORTGAGE,102000.0,Jul-2015,Fully Paid,debt_consolidation,14.34
+12000, 36 months,18.94,D,D2,3 years,MORTGAGE,90000.0,Sep-2018,Current,medical,21.16
+19200, 36 months,13.49,C,C2,2 years,MORTGAGE,40000.0,Apr-2017,Current,home_improvement,27.03
+21000, 60 months,8.18,B,B1,6 years,MORTGAGE,94000.0,Feb-2015,Current,debt_consolidation,28.42
+18000, 60 months,20.39,D,D4,3 years,RENT,47000.0,May-2018,Current,credit_card,24.92
+30000, 60 months,10.47,B,B2,4 years,MORTGAGE,71000.0,Jul-2018,Current,debt_consolidation,17.97
+10000, 36 months,12.69,C,C2,9 years,MORTGAGE,38000.0,Jun-2015,Fully Paid,debt_consolidation,16.65
