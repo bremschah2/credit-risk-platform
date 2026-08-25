@@ -1,11 +1,8 @@
 """
-Incremental ETL: loads the next unprocessed batch file into DynamoDB,
-tracking progress with a watermark item stored in the same table.
-
-Watermark item:
-    PK = "ETL_STATE"
-    SK = "WATERMARK"
-    next_batch_number = <int>
+Wipes all items from credit_risk_table, then reloads the same ~10,000-row
+stratified sample as the original Phase 1 load -- this time capturing
+sub_grade, and using batch_writer for speed (the original took an hour
+writing one item at a time; this should take a few minutes).
 """
 
 import os
@@ -20,8 +17,30 @@ load_dotenv()
 dynamodb = boto3.resource("dynamodb", region_name=os.getenv("AWS_REGION"))
 table = dynamodb.Table(os.getenv("DYNAMODB_TABLE"))
 
-BATCH_DIR = "data"
-NUM_BATCHES = 10
+RAW_PATH = "../data/raw/loan.csv"
+SAMPLE_SIZE = 10000
+
+COLUMNS_NEEDED = [
+    "loan_amnt", "term", "int_rate", "grade", "sub_grade",
+    "home_ownership", "annual_inc", "issue_d", "purpose", "dti",
+    "loan_status", "emp_length"
+]
+
+
+def wipe_table():
+    print("Scanning table to find all items to delete...")
+    items = []
+    response = table.scan(ProjectionExpression="PK, SK")
+    items.extend(response["Items"])
+    while "LastEvaluatedKey" in response:
+        response = table.scan(ProjectionExpression="PK, SK", ExclusiveStartKey=response["LastEvaluatedKey"])
+        items.extend(response["Items"])
+
+    print(f"Found {len(items)} items. Deleting...")
+    with table.batch_writer() as writer:
+        for item in items:
+            writer.delete_item(Key={"PK": item["PK"], "SK": item["SK"]})
+    print("Table wiped.")
 
 
 def parse_term(term_str):
@@ -50,48 +69,28 @@ def parse_days_past_due(loan_status_str):
     return 0
 
 
-def get_watermark():
-    response = table.get_item(Key={"PK": "ETL_STATE", "SK": "WATERMARK"})
-    item = response.get("Item")
-    if item:
-        return int(item["next_batch_number"])
-    return 1
+def reload_sample():
+    print(f"Reading and sampling {SAMPLE_SIZE} rows from {RAW_PATH}...")
+    df = pd.read_csv(RAW_PATH, usecols=COLUMNS_NEEDED, low_memory=False)
+    df = df.dropna(subset=["loan_amnt", "int_rate", "grade", "issue_d", "loan_status"])
 
+    total = len(df)
+    samples = []
+    for g in df["grade"].unique():
+        sub = df[df["grade"] == g]
+        n = min(len(sub), max(1, int(SAMPLE_SIZE * len(sub) / total)))
+        samples.append(sub.sample(n=n, random_state=42))
+    sample = pd.concat(samples)
 
-def get_next_borrower_and_loan_ids():
-    response = table.get_item(Key={"PK": "ETL_STATE", "SK": "WATERMARK"})
-    item = response.get("Item")
-    if item and "last_borrower_id" in item:
-        return int(item["last_borrower_id"]), int(item["last_loan_id"])
-    return 10000, 10000
+    print(f"Sampled {len(sample)} rows. Writing to DynamoDB (via batch_writer)...")
 
-
-def run():
-    batch_number = get_watermark()
-
-    if batch_number > NUM_BATCHES:
-        print(f"All {NUM_BATCHES} batches already processed. Nothing to do.")
-        return
-
-    batch_str = str(batch_number).zfill(2)
-    batch_path = os.path.join(BATCH_DIR, f"batch_{batch_str}.csv")
-
-    if not os.path.exists(batch_path):
-        print(f"Batch file {batch_path} not found. Skipping this run.")
-        return
-
-    print(f"Processing batch {batch_number}/{NUM_BATCHES}: {batch_path}")
-    df = pd.read_csv(batch_path)
-
-    last_borrower_id, last_loan_id = get_next_borrower_and_loan_ids()
+    borrower_id_counter = 1
+    loan_id_counter = 1
 
     with table.batch_writer() as writer:
-        for _, row in df.iterrows():
-            last_borrower_id += 1
-            last_loan_id += 1
-            borrower_id = str(last_borrower_id)
-            loan_id = str(last_loan_id)
-
+        for _, row in sample.iterrows():
+            borrower_id = str(borrower_id_counter)
+            loan_id = str(loan_id_counter)
             emp_length = row["emp_length"] if pd.notna(row["emp_length"]) else "Unknown"
 
             writer.put_item(Item={
@@ -123,17 +122,25 @@ def run():
                 "days_past_due": parse_days_past_due(row["loan_status"]),
             })
 
+            if loan_id_counter % 1000 == 0:
+                print(f"  ...loaded {loan_id_counter} loans so far")
+
+            borrower_id_counter += 1
+            loan_id_counter += 1
+
+    print(f"Done. Reloaded {loan_id_counter - 1} borrower/loan/payment-status record sets, now including sub_grade.")
+
+    # Reset the ETL watermark since the table was wiped
     table.put_item(Item={
         "PK": "ETL_STATE",
         "SK": "WATERMARK",
-        "next_batch_number": batch_number + 1,
-        "last_borrower_id": last_borrower_id,
-        "last_loan_id": last_loan_id,
+        "next_batch_number": 1,
+        "last_borrower_id": borrower_id_counter - 1,
+        "last_loan_id": loan_id_counter - 1,
     })
-
-    print(f"Batch {batch_number} loaded successfully ({len(df)} records). "
-          f"Next run will process batch {batch_number + 1}.")
+    print("ETL watermark reset to batch 1.")
 
 
 if __name__ == "__main__":
-    run()
+    wipe_table()
+    reload_sample()

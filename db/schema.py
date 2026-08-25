@@ -23,7 +23,7 @@ def put_borrower(borrower_id, annual_income, employment_length,
 
 
 def put_loan(borrower_id, loan_id, loan_amount, interest_rate,
-             term_months, grade, issue_date, purpose):
+             term_months, grade, sub_grade, issue_date, purpose):
     table.put_item(Item={
         "PK": f"BORROWER#{borrower_id}",
         "SK": f"LOAN#{loan_id}",
@@ -31,6 +31,7 @@ def put_loan(borrower_id, loan_id, loan_amount, interest_rate,
         "interest_rate": Decimal(str(interest_rate)),
         "term_months": term_months,
         "grade": grade,
+        "sub_grade": sub_grade,
         "issue_date": issue_date,
         "purpose": purpose,
     })
