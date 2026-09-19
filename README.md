@@ -17,7 +17,42 @@ A cloud-hosted platform that predicts loan default risk and translates it into d
 | Model ROC-AUC (calibrated) | 0.6964 |
 | Model Brier score (post-calibration) | 0.1482 (down from 0.2235 uncalibrated — a 34% improvement) |
 
-The model's raw probabilities were found to be overconfident by up to **34 percentage points** at the high end before calibration — this was diagnosed and corrected using isotonic regression. Full technical writeup in the [Phase 3 retrospective](docs/pm/../phase-notes/phase3-retrospective.md).
+The model's raw probabilities were found to be overconfident by up to **34 percentage points** at the high end before calibration — this was diagnosed and corrected using isotonic regression.
+
+---
+
+## Screenshots
+
+### Dashboard
+
+**Portfolio Overview** — headline KPIs, expected loss by grade, portfolio status breakdown, and an interactive what-if recovery-rate parameter.
+![Portfolio Overview](docs/screenshots/overview.png)
+
+**Risk Segmentation** — expected loss by purpose/grade, default risk by home ownership, individual-loan scatter analysis, and a grade x home-ownership risk heatmap.
+![Risk Segmentation](docs/screenshots/risk-segmentation.png)
+
+**Collections Priority List** — unresolved loans only, ranked by expected loss, the actual worklist a collections team would use.
+![Collections Priority](docs/screenshots/collections-priority.png)
+
+### Live API
+
+A real request/response against the deployed, publicly reachable scoring endpoint.
+![Live API Response](docs/screenshots/api-live-response.png)
+
+### Automation
+
+Both scheduled pipelines have been running unattended, on schedule, since deployment.
+
+**ETL pipeline** — 27+ scheduled runs, incrementally loading new loan batches.
+![GitHub Actions ETL](docs/screenshots/github-actions-etl.png)
+
+**Risk scoring batch job** — scheduled weekly, keeps every loan's risk score current.
+![GitHub Actions Risk Scoring](docs/screenshots/github-actions-scoring.png)
+
+### Infrastructure
+
+The live DynamoDB table backing the whole system — Active, on-demand capacity, 90,973 items.
+![DynamoDB Table](docs/screenshots/aws-dynamodb-table.png)
 
 ---
 
@@ -85,7 +120,7 @@ Returns:
 }
 ```
 
-*Note: this endpoint uses no authentication, a deliberate simplification for portfolio demo purposes — see [ADR discussion in Phase 4 retrospective] for the production-appropriate alternative.*
+*Note: this endpoint uses no authentication, a deliberate simplification for portfolio demo purposes.*
 
 ---
 
