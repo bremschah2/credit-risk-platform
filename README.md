@@ -34,6 +34,11 @@ The model's raw probabilities were found to be overconfident by up to **34 perce
 **Collections Priority List** — unresolved loans only, ranked by expected loss, the actual worklist a collections team would use.
 ![Collections Priority](docs/screenshots/collections-priority.png)
 
+### Containerized Deployment
+
+The scoring API running locally in Docker before being pushed to ECR and deployed to Lambda — confirms the container works standalone before it ever reaches AWS.
+![Docker Container Running Locally](docs/screenshots/docker-local-container.png)
+
 ### Live API
 
 A real request/response against the deployed, publicly reachable scoring endpoint.
@@ -60,7 +65,7 @@ The live DynamoDB table backing the whole system — Active, on-demand capacity,
 
 ```mermaid
 flowchart TD
-    A[Lending Club CSV<br/>1.3M+ historical loans] -->|stratified sample| B[(DynamoDB<br/>single-table NoSQL)]
+    A[Lending Club CSV<br/>2.26M+ historical loans] -->|stratified sample| B[(DynamoDB<br/>single-table NoSQL)]
     A -->|batch simulation| C[GitHub Actions<br/>scheduled ETL]
     C --> B
     B -->|scan + feature extraction| D[Model Training<br/>scikit-learn]
